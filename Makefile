@@ -17,9 +17,9 @@ FLAGS = -Wall -Wextra -Werror
 
 PATH_SRCS = ./srcs/
 PATH_HEADER = ./includes/
-PATH_LIB = $(PATH_SRCS)libft/
 PATH_LEM_IN = $(PATH_SRCS)
-PATH_GNL = $(PATH_SRCS)get_next_line/
+PATH_GNL = ./get_next_line/
+PATH_LIB = $(PATH_GNL)libft/
 
 HEADERS = lem_in.h get_next_line.h
 
